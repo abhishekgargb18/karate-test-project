@@ -1,0 +1,5 @@
+<configuration>
+  <logger name="org.thymeleaf" level="DEBUG"/> <!-- Suppress Thymeleaf INFO logs -->
+  <logger name="com.intuit.karate" level="DEBUG"/> <!-- Keep Karate logs -->
+ <!--  <logger name="com.intuit.karate.runtime" level="TRACE"/> -->
+</configuration>	

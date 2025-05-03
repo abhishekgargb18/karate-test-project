@@ -1,0 +1,16 @@
+14:32:08.447 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:35:52.894 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:37:19.915 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:38:18.102 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:38:19.475 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1745140099458
+14:40:47.192 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:40:48.541 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1745140248535
+14:40:54.536 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/sample.feature
+14:44:00.238 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+14:44:01.609 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1745140441603
+14:44:06.940 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/sample.feature
+19:17:26.478 [main]  INFO  com.intuit.karate - Karate version: 1.4.1
+19:17:27.917 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1745243247911
+19:17:33.294 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) src/test/java/features/sample.feature
+19:17:33.440 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) src/test/java/features/json.feature
+19:17:33.441 [main]  DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
