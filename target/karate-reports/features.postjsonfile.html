@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-05-02 05:41:50 PM</div>
+    <div>2025-05-06 03:13:21 PM</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:8]"><span>[1:8]</span> <span>create a user using above data</span></a>
           </div>
         </div>
@@ -80,8 +80,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1373</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1244</span>
             </div>
           </div>
           <div class="step-row">
@@ -160,7 +160,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestPayload = read(&#39;classpath:payload/user.json&#39; )</span>
       </div>
     </div>
-    <div class="time-cell passed">42</div>
+    <div class="time-cell passed">17</div>
   </div>
 
    
@@ -216,7 +216,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request requestPayload</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -244,7 +244,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1330</div>
+    <div class="time-cell passed">1216</div>
   </div>
 
    
@@ -253,7 +253,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.11">17:41:49.480 request:
+  <div class="preformatted" data-parent="0.11">15:13:20.581 request:
 1 &gt; POST https://gorest.co.in/public/v1/users
 1 &gt; Authorization: Bearer 6d8c762ad7af8ecf5b12abb1e7a345214e822f4cafcfb67d183a21af51163300
 1 &gt; Content-Type: application/json; charset=UTF-8
@@ -264,14 +264,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;name&quot;:&quot;tom1&quot;,&quot;email&quot;:&quot;tom6@gmail.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}
 
-17:41:50.806 response time in milliseconds: 1324
-1 &lt; 422
-1 &lt; Date: Fri, 02 May 2025 12:11:50 GMT
+15:13:21.791 response time in milliseconds: 1209
+1 &lt; 201
+1 &lt; Date: Tue, 06 May 2025 09:43:23 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Content-Length: 75
+1 &lt; Content-Length: 108
 1 &lt; Connection: keep-alive
-1 &lt; Cache-Control: no-cache
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; Etag: W/&quot;a57512d9fe4a8a36db3676f090e1e52e&quot;
 1 &lt; Feature-Policy: camera &#39;none&#39;; gyroscope &#39;none&#39;; microphone &#39;none&#39;; usb &#39;none&#39;; fullscreen &#39;self&#39;
+1 &lt; Location: https://gorest.co.in/public/v1/users/7875926
 1 &lt; Referrer-Policy: strict-origin-when-cross-origin
 1 &lt; Vary: Origin
 1 &lt; X-Content-Type-Options: nosniff
@@ -281,14 +283,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; X-Ratelimit-Limit: 90
 1 &lt; X-Ratelimit-Remaining: 89
 1 &lt; X-Ratelimit-Reset: 1
-1 &lt; X-Request-Id: b2d10af9-14af-4112-af7b-45918469cd50
-1 &lt; X-Runtime: 0.045018
+1 &lt; X-Request-Id: 0615d0f6-b298-45f0-b0cc-d0663c8fbba4
+1 &lt; X-Runtime: 0.054973
 1 &lt; X-Xss-Protection: 0
 1 &lt; Cf-Cache-Status: DYNAMIC
+1 &lt; Nel: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;success_fraction&quot;:0.0,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://a.nel.cloudflare.com/report/v4?s=56cJxMbLd0JKl5NZqwzkIf0NiDLcch91mGokJQeNHQeQvBTj2teAYtCutFQIDoAXfFuahLDq%2FTivdwGuN6UHXg5SjJhoVU%2FDbJ7tF46JNeoFAL8PET%2B3xqrPoumbd%2BI%3D&quot;}]}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 93976c65c87034dd-LHR
+1 &lt; CF-RAY: 93b7886dd9fc71ae-LHR
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;meta&quot;:null,&quot;data&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;has already been taken&quot;}]}
+{&quot;meta&quot;:null,&quot;data&quot;:{&quot;id&quot;:7875926,&quot;name&quot;:&quot;tom1&quot;,&quot;email&quot;:&quot;tom6@gmail.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}}
 
 </div>   
 
@@ -303,46 +307,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref failed">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.12">17:41:50.808 classpath:features/postjsonfile.feature:12
-Then status 201
-status code was: 422, expected: 201, response time in milliseconds: 1324, url: https://gorest.co.in/public/v1/users, response: 
-{&quot;meta&quot;:null,&quot;data&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;has already been taken&quot;}]}
-classpath:features/postjsonfile.feature:12
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
-      
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>print response</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -363,14 +334,53 @@ classpath:features/postjsonfile.feature:12
   
 
   <div class="step-row">
-    <div class="step-container" id="0.14">
-      <div class="step-ref skipped">14</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">15:13:21.795 [print] {
+  &quot;meta&quot;: null,
+  &quot;data&quot;: {
+    &quot;id&quot;: 7875926,
+    &quot;name&quot;: &quot;tom1&quot;,
+    &quot;email&quot;: &quot;tom6@gmail.com&quot;,
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.data.id == &#39;#present&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -392,13 +402,13 @@ classpath:features/postjsonfile.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+      <div class="step-ref passed">15</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.data.name  == &#39;#present&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -420,13 +430,13 @@ classpath:features/postjsonfile.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.16">
-      <div class="step-ref skipped">16</div>
+      <div class="step-ref passed">16</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.data.email == &#39;#present&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -448,13 +458,13 @@ classpath:features/postjsonfile.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+      <div class="step-ref passed">17</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.data.email == requestPayload.email</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
