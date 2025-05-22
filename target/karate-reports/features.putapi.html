@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-05-06 03:13:23 PM</div>
+    <div>2025-05-22 01:52:44 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1141</span>
+              <span>ms:</span>&nbsp;<span>1504</span>
             </div>
           </div>
           <div class="step-row">
@@ -104,7 +104,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -248,7 +248,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method patch</span>
       </div>
     </div>
-    <div class="time-cell passed">1137</div>
+    <div class="time-cell passed">1501</div>
   </div>
 
    
@@ -257,20 +257,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.19">15:13:21.993 request:
+  <div class="preformatted" data-parent="0.19">13:52:42.822 request:
 1 &gt; PATCH https://gorest.co.in/public/v1/users/7861586
 1 &gt; Authorization: Bearer 6d8c762ad7af8ecf5b12abb1e7a345214e822f4cafcfb67d183a21af51163300
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 21
 1 &gt; Host: gorest.co.in
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.7)
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;status&quot;:&quot;inactive&quot;}
 
-15:13:23.125 response time in milliseconds: 1126
+13:52:44.311 response time in milliseconds: 1482
 1 &lt; 404
-1 &lt; Date: Tue, 06 May 2025 09:43:24 GMT
+1 &lt; Date: Thu, 22 May 2025 08:22:44 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -284,13 +284,15 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; X-Permitted-Cross-Domain-Policies: none
 1 &lt; X-Ratelimit-Limit: 90
 1 &lt; X-Ratelimit-Remaining: 89
-1 &lt; X-Ratelimit-Reset: 1
-1 &lt; X-Request-Id: 5af0067f-b3a8-4328-b61c-b3dcfa78689d
-1 &lt; X-Runtime: 0.031595
+1 &lt; X-Ratelimit-Reset: 2
+1 &lt; X-Request-Id: d89588fa-549f-4df0-84b2-8daf197059b5
+1 &lt; X-Runtime: 0.049792
 1 &lt; X-Xss-Protection: 0
 1 &lt; Cf-Cache-Status: DYNAMIC
+1 &lt; Nel: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;success_fraction&quot;:0.0,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://a.nel.cloudflare.com/report/v4?s=krMWJnNkpvoNKj386E3RkQWK%2FmAsl4ZxOee0osbLWi2QQhL2XlpDNKYqf5nh3J%2BnAu2ZSLtQoOu0gG8rDGjmcHhK7TMTBRBK4WKnpg%3D%3D&quot;}]}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 93b7887688c54913-LHR
+1 &lt; CF-RAY: 943ae84ddb710015-LHR
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
 {&quot;meta&quot;:null,&quot;data&quot;:{&quot;message&quot;:&quot;Resource not found&quot;}}
 
@@ -322,9 +324,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.20">15:13:23.128 classpath:features/putapi.feature:20
+  <div class="preformatted" data-parent="0.20">13:52:44.320 classpath:features/putapi.feature:20
 Then status 200
-status code was: 404, expected: 200, response time in milliseconds: 1126, url: https://gorest.co.in/public/v1/users/7861586, response: 
+status code was: 404, expected: 200, response time in milliseconds: 1482, url: https://gorest.co.in/public/v1/users/7861586, response: 
 {&quot;meta&quot;:null,&quot;data&quot;:{&quot;message&quot;:&quot;Resource not found&quot;}}
 classpath:features/putapi.feature:20
 </div>   

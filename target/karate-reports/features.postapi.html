@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-05-06 03:13:20 PM</div>
+    <div>2025-05-22 01:52:42 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1131</span>
+              <span>ms:</span>&nbsp;<span>3234</span>
             </div>
           </div>
           <div class="step-row">
@@ -104,7 +104,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -194,7 +194,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request requestPayload</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -250,7 +250,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1128</div>
+    <div class="time-cell passed">3206</div>
   </div>
 
    
@@ -259,20 +259,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.20">15:13:19.234 request:
+  <div class="preformatted" data-parent="0.20">13:52:39.163 request:
 1 &gt; POST https://gorest.co.in/public/v1/users
 1 &gt; Authorization: Bearer 6d8c762ad7af8ecf5b12abb1e7a345214e822f4cafcfb67d183a21af51163300
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 74
 1 &gt; Host: gorest.co.in
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.7)
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;name&quot;:&quot;tom1&quot;,&quot;email&quot;:&quot;tom3@gmail.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}
 
-15:13:20.357 response time in milliseconds: 1120
+13:52:42.358 response time in milliseconds: 3193
 1 &lt; 422
-1 &lt; Date: Tue, 06 May 2025 09:43:21 GMT
+1 &lt; Date: Thu, 22 May 2025 08:22:43 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 75
 1 &lt; Connection: keep-alive
@@ -287,12 +287,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; X-Ratelimit-Limit: 90
 1 &lt; X-Ratelimit-Remaining: 89
 1 &lt; X-Ratelimit-Reset: 1
-1 &lt; X-Request-Id: a57497e3-3359-4300-a09d-8696ec0891bd
-1 &lt; X-Runtime: 0.047235
+1 &lt; X-Request-Id: c013abf8-7aee-41b3-8f5e-231a3beeeda1
+1 &lt; X-Runtime: 0.045862
 1 &lt; X-Xss-Protection: 0
 1 &lt; Cf-Cache-Status: DYNAMIC
+1 &lt; Nel: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;success_fraction&quot;:0.0,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://a.nel.cloudflare.com/report/v4?s=5LBIzdAuKdclWR4zmgvBw6Dzv6JLvmHjJBbgEN%2FM1a3Het3kW9qlGWjf1lACq7nAyvs3EqiQJJ8WCunUEFqHQlulrInkh0Rs9Jw%3D&quot;}]}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 93b788657db91f7f-LHR
+1 &lt; CF-RAY: 943ae836dcf448b8-LHR
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
 {&quot;meta&quot;:null,&quot;data&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;has already been taken&quot;}]}
 
@@ -315,7 +317,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell failed">24</div>
   </div>
 
    
@@ -324,9 +326,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.21">15:13:20.360 classpath:features/postapi.feature:21
+  <div class="preformatted" data-parent="0.21">13:52:42.391 classpath:features/postapi.feature:21
 Then status 201
-status code was: 422, expected: 201, response time in milliseconds: 1120, url: https://gorest.co.in/public/v1/users, response: 
+status code was: 422, expected: 201, response time in milliseconds: 3193, url: https://gorest.co.in/public/v1/users, response: 
 {&quot;meta&quot;:null,&quot;data&quot;:[{&quot;field&quot;:&quot;email&quot;,&quot;message&quot;:&quot;has already been taken&quot;}]}
 classpath:features/postapi.feature:21
 </div>   

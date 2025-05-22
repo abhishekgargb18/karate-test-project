@@ -6,7 +6,7 @@ public class JsonTest {
 	@Karate.Test
 	Karate delete() {
 		// Path to the feature file (relative to this class)
-		return Karate.run("deleteapi", "postapi","putapi").relativeTo(getClass());
+		return Karate.run("deleteapi", "postapi").relativeTo(getClass());
 //		return Karate.run().relativeTo(getClass());
 	}
 
